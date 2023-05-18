@@ -1,0 +1,382 @@
+header ul li {
+  display: inline-block;
+  margin: 15px;
+}
+
+body {
+  height: 1000%;
+  overflow-x: hidden;
+}
+
+footer {
+  border: unset rgb(0, 0, 0);
+  text-align: center;
+  font-size: 20px;
+}
+footer ul li {
+  list-style-type: none;
+}
+
+/* Animacion de spiderman  */
+@keyframes spiderman {
+  0% {
+    transform: translateY(-50px);
+  }
+  30% {
+    transform: translateY(0) rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: translateY(-50px);
+  }
+}
+/* Centrado de la pagina */
+body {
+  height: 1000%;
+  overflow-x: hidden;
+}
+
+/* Titulo (H1) */
+.tituloPrincipal {
+  text-align: center;
+}
+
+/* Logo de la pagina */
+.portada {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+/* Barra de navegacion */
+header ul li {
+  display: inline-block;
+  margin: 15px;
+}
+
+/* Nombre de las secciones */
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+/* Textos de la pagina */
+.textos {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+footer {
+  border: unset rgb(0, 0, 0);
+  text-align: center;
+  font-size: 20px;
+}
+footer ul li {
+  list-style-type: none;
+}
+
+.img {
+  height: auto;
+  width: 400px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, #757F9A, #D7DDE8);
+  padding: 2px;
+  display: inline-flex;
+  border-radius: 8px;
+}
+
+/* Imagen de spiderman (animacion) */
+.spidy {
+  width: 300px;
+  animation: spiderman 5s infinite;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+form {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  text-align: center;
+}
+
+/* Redes sociales de la pagina */
+.redes {
+  color: rgb(0, 0, 0);
+}
+
+.derechos {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.registrarse {
+  color: rgb(0, 0, 0);
+}
+
+.MuroPrincipal {
+  background-color: rgb(101, 156, 238);
+  border: 3px black solid;
+  width: 1500px;
+  height: 1500px;
+  border-radius: 4px;
+  margin: auto;
+}
+
+#contacto {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contacto form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50vw;
+}
+
+.campo {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.tamBotonForm {
+  width: 200px;
+  margin: auto;
+}
+
+.botones {
+  text-align: center;
+  display: inline-block;
+  padding: 15px 30px;
+  color: rgb(0, 0, 0);
+  letter-spacing: 4px;
+  font-size: 15px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.botones:hover {
+  background: #a945c7;
+  box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+}
+.botones span {
+  position: absolute;
+  display: block;
+}
+
+.novedades {
+  width: 200px;
+  align-items: center;
+  margin-left: 140px;
+  margin: auto;
+}
+
+.carritotitulo {
+  text-align: center;
+}
+
+
+.ver-carrito {
+  font-size: 25px;
+  margin-right: 20px;
+  margin-top: 3.5vh;
+  cursor: pointer;
+}
+
+/*Banner styles*/
+.banner {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://images.unsplash.com/photo-1553546895-531931aa1aa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80");
+}
+
+.banner-container {
+  text-align: center;
+  padding: 15% 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 62px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 30px;
+  color: white;
+  opacity: 0.7;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/*product cards*/
+.shop-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  margin: 10px;
+}
+
+.card > img {
+  width: 90%;
+  height: 250px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+/*modal content*/
+.modal-container {
+  width: 80%;
+  margin: 0 10%;
+  max-height: 88vh;
+  color: #fff;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*for the top*/
+  position: fixed;
+  overflow: auto;
+  z-index: 9;
+  top: 12vh;
+  scrollbar-color: none;
+}
+
+.modal-container::-webkit-scrollbar {
+  display: none;
+}
+.modal-header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0a0909;
+  color: #fff;
+  width: 100%;
+}
+
+.modal-header-title {
+  justify-self: start;
+}
+
+.modal-header-button {
+  cursor: pointer;
+}
+
+.modal-container > .modal-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin: 10px;
+}
+
+.modal-container > div > img {
+  height: 120px;
+  width: 120px;
+}
+
+.total-content {
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/*se agregaron unas lineas de css con media querys para que se adapte mejor al responsive :)*/
+
+@media only screen and (max-width: 750px) {
+  .modal-container {
+    width: 100%;
+    margin: 0;
+    min-height: 88vh;
+  }
+
+  .modal-container > .modal-content {
+    justify-content: space-between;
+    width: 100%;
+    margin: 2px;
+  }
+
+  .modal-container > div > img {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+/*delete button product*/
+.delete-product {
+  cursor: pointer;
+}
+
+/*CarritoCounter*/
+.cantidad-carrito {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 4px;
+  top: 37px;
+  right: 14px;
+  position: absolute;
+  display: none;
+}
+
+.sumar {
+  cursor: pointer;
+}
+
+.restar {
+  cursor: pointer;
+}
+
+.finalizar {
+  cursor: pointer;
+}
+/*# sourceMappingURL=estilo.css.map */
